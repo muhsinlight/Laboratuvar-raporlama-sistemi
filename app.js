@@ -83,7 +83,8 @@ sequelize.authenticate()
 
 sequelize.sync(
     {
-        force: false
+        force: true
+
     }
 )
     .then(() => {
